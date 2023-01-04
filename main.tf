@@ -244,7 +244,7 @@ resource "azurerm_api_management" "apim" {
   location            = azurerm_resource_group.RG.location
   resource_group_name = azurerm_resource_group.RG.name
   publisher_name      = "Signature Aviaiton"
-  publisher_email     = "svc-az-saapi@bbaaviation.net"
+  publisher_email     = "svc-az-cbbp10@bbaaviation.net"
 
   sku_name = "Standard_1"
 
